@@ -1,0 +1,25 @@
+body {
+  font-family: roboto;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.grid {
+  display: flex;
+  flex-flow: column;
+}
+
+.gridrow {
+  display: flex;
+}
+
+.square {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.console {
+  font-size: large;
+  color: red;
+  text-align: center;
+}
