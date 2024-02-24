@@ -13,7 +13,6 @@ body {
 }
 
 .hover {
-  background-color: #165a70;
 }
 
 p.settings {
@@ -36,6 +35,8 @@ p.settings {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgba(22, 90, 112, 0.0);
+  /* opacity: 0; */
 }
 
 .console {
