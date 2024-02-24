@@ -34,6 +34,7 @@ function setup() {
     }
 
     grid.addEventListener('mouseover', changeBackground);
+    grid.addEventListener('touchstart', changeBackground);
 }
 
 function changeBackground(event) {
