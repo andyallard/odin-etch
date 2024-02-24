@@ -1,9 +1,9 @@
 * {
   box-sizing: border-box;
+  font-family: roboto;
 }
 
 body {
-  font-family: roboto;
   margin: 0;
 }
 
@@ -16,12 +16,26 @@ body {
   background-color: #165a70;
 }
 
+p.settings {
+  background-color: red;
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .gridrow {
   display: flex;
 }
 
 .square {
   border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .console {
