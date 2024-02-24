@@ -21,7 +21,15 @@ function setup() {
 
         grid.appendChild(row);
     }
+
+    grid.addEventListener('mouseover', changeBackground);
+}
+
+function changeBackground(event) {
+    if (event.target.classList.contains('square')) {
+        event.target.classList.add('hover');
+    }
 }
 
 setup();
-console.textContent = BOX_SIZE;
+// console.textContent = BOX_SIZE;

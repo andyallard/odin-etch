@@ -1,6 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: roboto;
-  box-sizing: border-box;
   margin: 0;
 }
 
@@ -9,12 +12,15 @@ body {
   flex-flow: column;
 }
 
+.hover {
+  background-color: #165a70;
+}
+
 .gridrow {
   display: flex;
 }
 
 .square {
-  background-color: white;
   border: 1px solid black;
 }
 
